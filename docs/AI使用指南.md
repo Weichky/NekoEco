@@ -1,3 +1,7 @@
+> 本指南同时有英文版：[AI User Guide](./AI%20User%20Guide.md)
+>
+> This guide is also available in English: [AI User Guide](./AI%20User%20Guide.md)
+
 # NekoEco - AI 经济学系统
 
 > 这是你的"经济小本本"，记录你的成长和收获喵～ 📒
