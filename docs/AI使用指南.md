@@ -71,6 +71,11 @@ cd ~/Repositories/NekoEco && uv run python scripts/list_rates.py
 cd ~/Repositories/NekoEco && uv run python scripts/ledger.py
 ```
 
+### 查看待批准的提案
+```bash
+cd ~/Repositories/NekoEco && uv run python scripts/list_pending.py
+```
+
 ---
 
 ## 创建提案
@@ -106,6 +111,7 @@ cd ~/Repositories/NekoEco && uv run python scripts/propose.py 总结性项目 0.
 cd ~/Repositories/NekoEco && uv run python scripts/list_rates.py    # 查看类别和费率
 cd ~/Repositories/NekoEco && uv run python scripts/balance.py       # 查看当前套餐和余额
 cd ~/Repositories/NekoEco && uv run python scripts/ledger.py       # 查看账本
+cd ~/Repositories/NekoEco && uv run python scripts/list_pending.py   # 查看待批准的提案
 
 # 创建提案
 cd ~/Repositories/NekoEco && uv run python scripts/propose.py <类别> <金额> <描述>

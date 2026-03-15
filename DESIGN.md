@@ -93,6 +93,7 @@ uv run python scripts/list_rates.py
 NekoEco/
 ├── docs/                   # 文档
 │   ├── AI使用指南.md
+│   ├── AI User Guide.md
 │   └── 主人使用指南.md
 ├── scripts/                # 脚本
 │   ├── init.py            # 初始化
@@ -102,6 +103,8 @@ NekoEco/
 │   ├── balance.py         # 查看余额
 │   ├── ledger.py          # 查看账本
 │   ├── list_rates.py      # 查看费率
+│   ├── list_pending.py    # 查看待批准提案
+│   ├── add_bonus.py       # 追加奖励
 │   ├── add_category.py    # 添加类别
 │   ├── delete_category.py # 删除类别
 │   ├── update_rate.py     # 修改费率

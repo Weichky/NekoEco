@@ -35,8 +35,9 @@ def show_ledger(type_filter=None, category_filter=None, limit=50):
         print("暂无交易记录")
         return
 
-    # 收入和支出分开显示
+    # 收入、奖金、支出分开显示
     income = [t for t in transactions if t[0] == "income"]
+    bonus = [t for t in transactions if t[0] == "bonus"]
     expense = [t for t in transactions if t[0] == "expense"]
 
     if income:
@@ -46,13 +47,13 @@ def show_ledger(type_filter=None, category_filter=None, limit=50):
         for t in income:
             print(f"{t[4]:<20} {t[1]:<15} {t[2]:<10} {t[3]}")
 
-    if expense:
+    if bonus:
         if income:
             print()
-        print("支出:")
+        print("奖励 (Bonus):")
         print(f"{'时间':<20} {'类别':<15} {'金额':<10} {'描述'}")
         print("-" * 60)
-        for t in expense:
+        for t in bonus:
             print(f"{t[4]:<20} {t[1]:<15} {t[2]:<10} {t[3]}")
 
 

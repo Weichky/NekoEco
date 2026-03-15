@@ -70,6 +70,11 @@ uv run python scripts/list_rates.py
 uv run python scripts/ledger.py
 ```
 
+### View Pending Proposals
+```bash
+uv run python scripts/list_pending.py
+```
+
 ---
 
 ## Create Proposal
@@ -101,9 +106,10 @@ uv run python scripts/propose.py 总结性项目 0.0009 "整理会议记录"
 
 ```bash
 # View information
-uv run python scripts/list_rates.py    # View categories and rates (including periodic expenses)
+uv run python scripts/list_rates.py    # View categories and rates
 uv run python scripts/balance.py       # View current plan and balance
 uv run python scripts/ledger.py        # View transaction ledger
+uv run python scripts/list_pending.py   # View pending proposals
 
 # Create proposal
 uv run python scripts/propose.py <category> <amount> <description>
