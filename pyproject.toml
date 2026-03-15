@@ -1,0 +1,9 @@
+[project]
+name = "nekoeco"
+version = "0.1.0"
+description = "NekoEco - AI 经济学系统"
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+dev = []
